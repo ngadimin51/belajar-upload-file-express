@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+form{
+    padding: 20px 20px;
+    border: solid 2px rgba(0,0,0,.5);
+    border-radius: 5px;
+}
+
+#response {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
