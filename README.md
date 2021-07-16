@@ -8,13 +8,15 @@ Contoh script upload file atau gambar di nodejs secara ajax, jadi kita bisa meng
 - Css
 - Javascript untuk menghandle ajax
 
-#Konsep :
-#Client :
+# Konsep :
+
+# Client :
 - Form event di prevent dengan java script
 - Tangkap input file dan append ke dalam FormData.
 - Kirim dengan fetch post ke server
 - Result success atau gagal ditampilkan ke sisi client
-#Server :
+
+# Server :
 - nodejs dengan framework express
 - middleware express-fileupload
 - get halaman utama ('/') mengirimkan file static html di folder public
